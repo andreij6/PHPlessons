@@ -30,6 +30,19 @@
 	
 	$result = ($value == 42 ) ? 'The answer' : 'Keep calculating';
 	
-	echo $result		//False
+	echo $result;		//False
 	
+	#Using Loops
+	
+	$i = 1;
+	while($i <=10) {
+		echo $i . '<br>';
+	$i++;
+	}
+	
+	#do while loop
+	do {
+		echo $i . '<br>';
+		$i++;
+	} while ($i <= 10);
 ?>
